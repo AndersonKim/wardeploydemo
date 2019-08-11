@@ -1,0 +1,8 @@
+war包部署外部服务器
+    1.修改maven打包方式，排除内置tomcat
+    2.修改应用启动方式
+使用jndi连接外部数据源
+    1.服务器配置全局jndi数据源
+        1.1 如何将数据源和JdbcTemplate绑定
+        1.2 如何将数据源和entityManager绑定
+    2.使用注入的JdbcTemplate查询
